@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>RunReportJob</members>
+        <members>UserMetricsJob</members>
+        <members>UserMetricsProcess</members>
+        <members>UserMetrics_Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Metrics_Reports__c</members>
+        <members>Sales_Metrics__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Sales_Metrics__c-Sales Metrics Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Metrics_Reports</members>
+        <members>Metrics_Reports/Managed_Accounts_by_Owner</members>
+        <members>Metrics_Reports/Open_Leads</members>
+        <members>Metrics_Reports/Open_Opportunities</members>
+        <members>Metrics_Reports/Unit_Test_Sample_Report</members>
+        <members>Metrics_Reports/Won_Opportunities</members>
+        <name>Report</name>
+    </types>
+    <version>33.0</version>
+</Package>
